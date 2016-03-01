@@ -1,0 +1,30 @@
+@media only screen and (max-width: 568px) and (min-width: 200px) {
+	.top-nav{float: right;margin-top:30px;position: relative;}
+	.top-nav ul{display: none;position: absolute;z-index: 10;right: 0px;background: #1F1A16;padding: 5px;}
+	.top-nav ul li{float: none;}
+	.top-nav ul li a{width: 75px;padding: 0;font-size: 14px;}
+	.small-screen-menu i{color:#ffd542; font-size: 30px;}
+
+	.mid-content{height: 120px;}
+	.rslides{height: 200px;width: 100%;}
+
+	.list-info{width: 100%;}
+	.list-info ul li{font-size: 14px;padding: 5px;margin-top: 5px;}
+
+	.grid {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 14px #524C48;
+	}
+
+	.grid img {
+	    padding: 10px;
+	    width: 92%;
+	    height: 297px;
+	}
+	.brand-wrap{width: 100%;}
+	.brand-wrap-ul{padding: 5px;height: auto;width: 90%;}
+	.link_tsbb{width: 100%;}
+	.popularPackages{width: 100%;}
+}
