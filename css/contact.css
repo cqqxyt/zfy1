@@ -1,0 +1,184 @@
+.contact-office--head .contact-office__content {
+    padding-left: 13.67188%;
+    margin-top: -200px;
+    padding-bottom: 80px;
+    background-color: #f8f6f4;
+    position: relative;
+    z-index: 1;
+}
+.contact-office--head .contact-office__content:before {
+    position: absolute;
+    top: 0;
+    left: -webkit-calc(-1 * (100vw - 930px) / 2);
+    left: calc(-1 * (100vw - 930px) / 2);
+    height: 100%;
+    width: -webkit-calc((100vw - 930px) / 2);
+    width: calc((100vw - 930px) / 2);
+    display: block;
+    content: '';
+    background-color: #f8f6f4;
+    z-index: -1;
+}
+.contact-office[data-animate-scroll].animate-scroll {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.contact-information dl dt, .contact-information dl dd {
+    float: left;
+}
+.contact-office img {
+    display: block;
+    float: left;
+    width: 50%;
+}
+.contact-office--right img {
+    float: right;
+}
+.contact-office[data-animate-scroll] img {
+    opacity: 0;
+    -webkit-transform: translate(-200px, 0);
+    -ms-transform: translate(-200px, 0);
+    transform: translate(-200px, 0);
+    -webkit-transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),-webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),-webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),transform 1s cubic-bezier(0.19, 1, 0.22, 1),-webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.contact-office[data-animate-scroll].contact-office--right img {
+    -webkit-transform: translate(200px, 0);
+    -ms-transform: translate(200px, 0);
+    transform: translate(200px, 0);
+}
+.contact-office[data-animate-scroll].animate-scroll .contact-information, .contact-office[data-animate-scroll].animate-scroll img {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.contact-office__content {
+    padding-top: 56px;
+    padding-left: 12.10938%;
+    float: left;
+    width: 27%;
+}
+.contact-office--right .contact-office__content {
+    padding-left: 13.67188%;
+    float: right;
+}
+.contact-office h2 {
+    position: relative;
+}
+.contact-office--head h2:before {
+    position: absolute;
+    top: 46px;
+    right: auto;
+    left: -32px;
+}
+.contact-information h2 {
+    font-family: "freight-big-pro",Georgia,Times,Times New Roman,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.21429rem;
+    line-height: 4.6rem;
+    margin-bottom: 2.79285rem;
+    padding-top: 1.20715rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.contact-office h2:before {
+    position: absolute;
+    top: 46px;
+    left: -15px;
+    height: 7px;
+    width: 7px;
+    display: block;
+    content: '';
+    border: 1px solid #cfbda8;
+    border-radius: 7px;
+}
+.contact-office h2:after {
+    position: absolute;
+    top: 49px;
+    left: -webkit-calc(-1 * (100vw - 930px) / 2);
+    left: calc(-1 * (100vw - 930px) / 2);
+    height: 1px;
+    width: -webkit-calc((100vw - 960px) / 2 );
+    width: calc((100vw - 960px) / 2 );
+    display: block;
+    content: '';
+    background-color: #cfbda8;
+}
+.contact-information dl dt {
+    margin-right: 12px;
+    width: 18px;
+    color: #666666;
+    clear: both;
+    font-family: "freight-big-pro",Georgia,Times,Times New Roman,serif;
+    font-style: italic;
+    font-weight: 500;
+     font-size: 1.35714rem;
+     line-height: 2rem;
+}
+.contact-information dl dd a{
+    margin-right: 12px;
+    width: 18px;
+    color: #666666;
+    clear: both;
+    font-family: "freight-big-pro",Georgia,Times,Times New Roman,serif;
+    font-style: italic;
+    font-weight: 500;
+     font-size: 1.35714rem;
+     line-height: 2rem;
+}
+.contact-information .address {
+    font-family: "freight-big-pro",Georgia,Times,Times New Roman,serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.35714rem;
+    line-height: 2rem;
+    margin-bottom: 1.46142rem;
+    padding-top: 0.53858rem;
+}
+.contact-office h2 {
+    position: relative;
+}
+.contact-information h2 {
+    font-family: "freight-big-pro",Georgia,Times,Times New Roman,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.21429rem;
+    line-height: 4.6rem;
+    margin-bottom: 2.79285rem;
+    padding-top: 1.20715rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.u-visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.contact-information a {
+    cursor: pointer;
+    color: #afa59c;
+    text-decoration: none;
+    -webkit-transition: color 0.1s, background-color 0.1s;
+    transition: color 0.1s, background-color 0.1s;
+}
+.contact-information a:hover, .contact-information a:focus,.contact-information a:active {
+    color: #69635e;
+    text-decoration: underline;
+}
+.contact-information a:hover, .contact-information a:focus {
+    color: #000;
+    text-decoration: none;
+    outline: none;
+}
+

@@ -1,0 +1,158 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+.fl{float: left;}
+.position-re{position:relative;}
+/*end reset*/
+body{
+	background:#ECECEC;
+	font-size: 12px;
+}
+.small-screen-menu{display: none;}
+.clearfix{zoom:1;}
+.logo{
+	width: 176px;
+}
+.logo a{
+	color:#ffd542;
+	font-size: 25px;
+	font-family: 'KaiTi_GB2312';
+}
+.logo .logoname{
+	display: inline-block;
+}
+.logo .logoname-en{
+	display: inline-block;
+	font-size: 14px;
+	font-family: "Georgia";
+	word-spacing:5px;
+}
+/*----start-wrap----*/
+ .wrap{
+ 	width:80%;
+ 	margin:0 auto;
+ }
+/*---start-header----*/
+.header {
+	/*border-bottom: 3px solid #ff8500;*/
+	background: #fff;
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index:10;
+}
+.logo{
+	float:left;
+	margin: 19px 0px 0px 0px;
+}
+.image-slider{
+	background: #433a31;
+	padding-bottom: 20px;
+	padding-top:0;
+}
+.top-nav{
+	float:left;
+}
+.top-nav ul li{
+	display:inline-block;
+	float:left;
+}
+.top-nav ul li a{
+	font-family: 'Microsoft yahei', 'Cookie', cursive;
+	padding: 30px 30px;
+	display: block;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	color: #999;
+	font-size: 1.5em;
+}
+.top-nav li.active> a, .top-nav li> a:hover {
+	color: #000;
+	background: rgba(212, 212, 212, 0.45);
+}
+
+.top-right{
+	float: right;
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 16px;
+	 color: #333;
+    font-weight: bold;
+}
+.fw-main, .content{margin:100px 0;}
+.mid-content{
+	height: 75px;
+	width: 100%;
+	padding-top:10px;
+}
+.list-info{
+	width: 80%;
+    margin: auto;
+}
+.list-info *{
+	vertical-align: middle;
+}
+.list-info ul li{
+	 padding: 0px 9px;
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.8;
+    border-right: 1px solid rgba(66, 66, 66, 0.5);
+}
+.list-info ul li span{
+	font-family: "Microsoft yahei";
+}
+.list-info ul li *{
+	vertical-align: middle;
+}
+.list-info ul li i{
+	margin-right: 5px;
+}
+.list-info ul li.last-li{
+	border-right: 0;
+}
+.contact-way{
+	display: inline-block;
+	height: 24px;
+    line-height: 24px;
+    font-family: "Microsoft yahei";
+    font-size: 17px;
+    color: #000;
+}
+.bread-nav{
+	color: #5D5D5D;
+	font-family: "Microsoft Yahei";
+}
+/*\底部特色频道*/
+
+	
+.friendly-link-wrap { background:#fff; color:#9C9696; overflow:hidden;text-align: center;padding:20px;}
+.friendly-link-wrap ul li a{  color:#9C9696;}	
+.friendly-link-wrap ul li a:hover{color:#FFE053;}
+.friendly-link-wrap ul li{border-right: 1px solid #9C9696;float: left;margin-right:5px ;padding-right:5px;}
+.friendly-link-wrap ul li.last-li{border-right: none;}
+.foot_wrap{width: 1180px;margin: auto;}
